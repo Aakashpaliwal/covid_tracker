@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import axios from 'axios'
 // import Cards from './Component/Cards/Cards'
 // import Chart from './Component/Chart/Chart'
 // import CountryPicker from './Component/CountryPicker/CountryPicker'
