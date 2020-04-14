@@ -1,4 +1,4 @@
-let CACHE_NAME = 'Covid Tracker';
+let CACHE_NAME = 'covid tracker';
 let urlsToCache = [
   '/',
   '/completed'
@@ -33,7 +33,7 @@ self.addEventListener('fetch', event => {
 
 // Update a service worker
 self.addEventListener('activate', event => {
-  let cacheWhitelist = ['Covid Tracker'];
+  let cacheWhitelist = ['covid tracker'];
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
